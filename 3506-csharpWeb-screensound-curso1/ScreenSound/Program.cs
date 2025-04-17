@@ -4,8 +4,11 @@ using ScreenSound.Modelos;
 
 try
 {
-    var connection = new Connection();
-    var listaArtistas = connection.Listar();
+    var artistaDAL = new ArtistaDAL();
+
+    artistaDAL.Adicionar(new Artista("Michael Jackson", "Michael Joseph Jackson foi um cantor, compositor, dançarino e filantropo estadunidense. Apelidado de \"Rei do Pop\", ele é considerado uma das figuras culturais mais significantes do século XX e um dos maiores artistas da história da música."));
+
+    var listaArtistas = artistaDAL.Listar();
 
     foreach (var artista in listaArtistas )
     {
