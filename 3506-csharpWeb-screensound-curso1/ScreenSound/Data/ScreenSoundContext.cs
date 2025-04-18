@@ -9,7 +9,7 @@ namespace ScreenSound.Data
 
         public DbSet<Musica> Musicas { get; set; }
 
-        private readonly string connectionString = "Data Source=(localdb)\\MSSQLLocalDB;Initial Catalog=ScreenSound;Integrated Security=True;Encrypt=False;TrustServerCertificate=False";
+        private readonly string connectionString = "Data Source=(localdb)\\MSSQLLocalDB;Initial Catalog=ScreenSoundV0;Integrated Security=True;Encrypt=False;TrustServerCertificate=False";
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
