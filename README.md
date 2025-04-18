@@ -47,5 +47,5 @@
 <div align="center">
   <h1>🎧 ScreenSound (Projeto):</h1>
   <p>Aplicação em .NET que permite o cadastro, consulta e relacionamento entre bandas e álbuns musicais, utilizando Entity Framework Core para persistência de dados.</p>
-  <img src="">
+  <img src="https://raw.githubusercontent.com/GustavoVieiraa/.NET-Persistindo-Dados-Com-Entity-Framework-Core/refs/heads/main/3506-csharpWeb-screensound-curso1/ScreenSound/Archives/ScreenSound.gif">
 </div>
