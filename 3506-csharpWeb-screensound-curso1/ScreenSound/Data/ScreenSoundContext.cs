@@ -13,7 +13,9 @@ namespace ScreenSound.Data
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
-            optionsBuilder.UseSqlServer(connectionString);
+            optionsBuilder
+                .UseSqlServer(connectionString)
+                .UseLazyLoadingProxies();
         }
 
     }
