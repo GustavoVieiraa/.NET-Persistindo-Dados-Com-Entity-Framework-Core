@@ -13,6 +13,7 @@ internal class Artista
 
     public string Nome { get; set; }
     public string FotoPerfil { get; set; }
+    public int Idade { get; set; }
     public string Bio { get; set; }
     public int Id { get; set; }
 
